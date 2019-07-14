@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-blueimp",
+  "version": "0.0.0",
+  "description": "ESLint config for blueimp projects.",
+  "keywords": [
+    "eslint",
+    "config",
+    "blueimp"
+  ],
+  "homepage": "https://github.com/blueimp/eslint-config-blueimp",
+  "author": {
+    "name": "Sebastian Tschan",
+    "url": "https://blueimp.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blueimp/eslint-config-blueimp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6",
+    "eslint-config-prettier": "6",
+    "eslint-plugin-jsdoc": "15",
+    "eslint-plugin-node": "9",
+    "eslint-plugin-prettier": "3",
+    "prettier": "1",
+    "typescript": "3"
+  },
+  "scripts": {
+    "test": "eslint . && tsc",
+    "preversion": "npm test",
+    "postversion": "git push --tags origin HEAD && npm publish"
+  },
+  "main": "index.js"
+}
