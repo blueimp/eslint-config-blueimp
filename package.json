@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blueimp",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "ESLint config for blueimp projects.",
   "keywords": [
     "eslint",
