@@ -23,7 +23,7 @@
   "devDependencies": {
     "eslint": "7",
     "eslint-config-prettier": "6",
-    "eslint-plugin-jsdoc": "25",
+    "eslint-plugin-jsdoc": "30",
     "eslint-plugin-node": "11",
     "eslint-plugin-prettier": "3",
     "prettier": "2",
